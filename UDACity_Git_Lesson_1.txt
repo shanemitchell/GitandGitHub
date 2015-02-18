@@ -1,0 +1,34 @@
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+	Allows for easy rolling back to a previous working version.
+	Allows for the quick identification of bugs, typos etc. by using diff.
+	Allows for easy identification of the author of a breaking code change in a shared source file.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+	Pros:
+	I can choose when to commit based on the resolution of a bug, completion of a feature etc. which makes rollback and version comparions much more logical and understandable.
+	
+	I have immediate feedback on required merges in shared projects.
+	
+	Cons:
+	A developer can forget to commit losing all work in the event of a hardware failure.
+	
+	A developer can forget to commit making a rollback very difficult.
+	Commits are performed at scheduled times, not logical times associated with the completion of a piece of work.
+	
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+	Source code files are logically grouped to provide functionality, e.g. a feature change in a web app will likely require a change to a HTML, CSS and JavaScript file; so in order to review this change or rollback it makes sense to logically group them. In Google Docs there is no grouping of files to form a project and each document is treated as a single entity.
+	
+How can you use the commands git log and git diff to view the history of files?
+
+	Git log is used to view a history of commits, with each commit having an associated commit id; the git diff command is used to display the differences between two commits by supplying the commit id's as arguments.
+	
+How might using version control make you more confident to make changes that could break something?
+
+	The ability to quickly identify commits that caused the break, identify the offending code change in the breaking commit. Also, the ability to quickly checkout (rollback) to a pre-breaking commit. 
+	
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	Version control on future personal study and learning projects.
