@@ -9,3 +9,7 @@ How is the staging area different from the working directory and the repository?
 How can you use the staging area to make sure you have one commit per logical change?
 
 	By only adding files that encompass a logical change, and reviewing by using "git diff --staged"" to review all changes between the logical change and the latest commit in the repository. 
+	
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Trying experimental new features, or if more than one developer are working on the same repository commit and want to work independently of each other. Implementing client specific branding or functionality may call for a separate branch.
